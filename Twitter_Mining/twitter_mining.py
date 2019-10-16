@@ -13,11 +13,10 @@ def print(data):
 
 
 
-consumer_key = 'BvxUlgkE8RYZqNstffsWWR7R7'
-consumer_secret = 'zbdavSVCOKIPgpIvrJPudw54elFWtTGDQxfwtH1DRCiXYKt5xg'
-access_token = '888084649-RYujdf9G4mMWoORK8Yg3YjOxaT8Zcw1QIkhxnUfk'
-access_secret = 'jo4gr9iHdFuB77FEz5vTjOExHKZvQDDMuHLFVcLcQWfgc'
-
+consumer_key = 'API KEY HERE'
+consumer_secret = 'API SECRET KEY'
+access_token = 'ACCESS TOKEN HERE'
+access_secret = 'ACCESS TOKEN SECRECT HERE'
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token,access_secret)
 
