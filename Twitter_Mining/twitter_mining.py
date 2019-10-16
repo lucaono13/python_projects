@@ -8,15 +8,18 @@ def store(name,data):
     with open(file, 'w') as f:
         f.write(data)
 
-def print(data):
+def printing(data):
     print(json.dumps(data))
 
+with open("auth.json",'r') as f:
+    f = json.load(f)
+
+consumer_key = f['api_keys'][0]['consumer_key']
+consumer_secret = f['api_keys'][0]['consumer_secret']
+access_token = f['api_keys'][0]['access_token']
+access_secret = f['api_keys'][0]['access_secret']
 
 
-consumer_key = 'API KEY HERE'
-consumer_secret = 'API SECRET KEY'
-access_token = 'ACCESS TOKEN HERE'
-access_secret = 'ACCESS TOKEN SECRECT HERE'
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token,access_secret)
 
