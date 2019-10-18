@@ -17,16 +17,15 @@ class StackSpider(Spider):
             item = StackItem()
             item['name'] = forward.xpath('td[@class="left"]/a/text()').extract()[0]
             item['yrs_rem'] = forward.xpath('td[@class="tm_yrr hide"]/text()').extract()[0]
+            item['age'] = forward.xpath('td[6]/span[@class="q"]/text()').extract()[0]
             item['cont_19'] = forward.xpath('td[7]/span[1]/span[@class="num"]/@data-num').extract()[0]
             yield item
-
-        #questions2 = Selector(response).xpath('//div[@class="cb team_c"]/table[@class="tbl fixed"]/tbody[1]/tr[@class="even c"]')
-        #questions2 = Selector(response).xpath('//div[@class="cb team_c"]/table[@class="tbl fixed"]/tbody[1]/tr[@class="even c"]')
 
         for forward in forward2:
             item = StackItem()
             item['name'] = forward.xpath('td[@class="left"]/a/text()').extract()[0]
             item['yrs_rem'] = forward.xpath('td[@class="tm_yrr hide"]/text()').extract()[0]
+            item['age'] = forward.xpath('td[6]/span[@class="q"]/text()').extract()[0]
             item['cont_19'] = forward.xpath('td[7]/span[1]/span[@class="num"]/@data-num').extract()[0]
             yield item
 
@@ -36,14 +35,16 @@ class StackSpider(Spider):
         for defd in defense1:
             item = StackItem()
             item['name'] = defd.xpath('td[@class="left"]/a/text()').extract()[0]
-            item['yrs_rem'] = defd.xpath('td[@class="left"]/a/text()').extract()[0]
+            item['yrs_rem'] = defd.xpath('td[@class="tm_yrr hide"]/text()').extract()[0]
+            item['age'] = defd.xpath('td[6]/span[@class="q"]/text()').extract()[0]
             item['cont_19'] = defd.xpath('td[7]/span[1]/span[@class="num"]/@data-num').extract()[0]
             yield item
 
         for defd in defense2:
             item = StackItem()
             item['name'] = defd.xpath('td[@class="left"]/a/text()').extract()[0]
-            item['yrs_rem'] = defd.xpath('td[@class="left"]/a/text()').extract()[0]
+            item['yrs_rem'] = defd.xpath('td[@class="tm_yrr hide"]/text()').extract()[0]
+            item['age'] = defd.xpath('td[6]/span[@class="q"]/text()').extract()[0]
             item['cont_19'] = defd.xpath('td[7]/span[1]/span[@class="num"]/@data-num').extract()[0]
             yield item
 
@@ -53,13 +54,15 @@ class StackSpider(Spider):
         for goal in goalie1:
             item = StackItem()
             item['name'] = goal.xpath('td[@class="left"]/a/text()').extract()[0]
-            item['yrs_rem'] = goal.xpath('td[@class="left"]/a/text()').extract()[0]
+            item['yrs_rem'] = goal.xpath('td[@class="tm_yrr hide"]/text()').extract()[0]
+            item['age'] = goal.xpath('td[6]/span[@class="q"]/text()').extract()[0]
             item['cont_19'] = goal.xpath('td[7]/span[1]/span[@class="num"]/@data-num').extract()[0]
             yield item
 
         for goal in goalie2:
             item = StackItem()
             item['name'] = goal.xpath('td[@class="left"]/a/text()').extract()[0]
-            item['yrs_rem'] = goal.xpath('td[@class="left"]/a/text()').extract()[0]
+            item['yrs_rem'] = goal.xpath('td[@class="tm_yrr hide"]/text()').extract()[0]
+            item['age'] = goal.xpath('td[6]/span[@class="q"]/text()').extract()[0]
             item['cont_19'] = goal.xpath('td[7]/span[1]/span[@class="num"]/@data-num').extract()[0]
             yield item

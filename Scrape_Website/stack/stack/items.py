@@ -13,6 +13,7 @@ class StackItem(Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     name = Field()
+    age = Field()
     yrs_rem = Field()
     cont_19 = Field()
     pass
