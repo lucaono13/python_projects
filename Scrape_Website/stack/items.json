@@ -1,7 +1,23 @@
 [
-{"name": "Couture, Logan", "yrs_rem": "8 UFA", "cont_19": "$8,000,000"},
-{"name": "Meier, Timo", "yrs_rem": "4 RFA", "cont_19": "$6,000,000"},
-{"name": "Karlsson, Melker", "yrs_rem": "1 UFA", "cont_19": "$2,000,000"},
-{"name": "S\u00f6rensen, Marcus", "yrs_rem": "2 UFA", "cont_19": "$1,500,000"},
-{"name": "Goodrow, Barclay", "yrs_rem": "2 UFA", "cont_19": "$925,000"}
+{"name": "Couture, Logan", "yrs_rem": "8 UFA", "cont_19": "8000000"},
+{"name": "Meier, Timo", "yrs_rem": "4 RFA", "cont_19": "6000000"},
+{"name": "Karlsson, Melker", "yrs_rem": "1 UFA", "cont_19": "2000000"},
+{"name": "S\u00f6rensen, Marcus", "yrs_rem": "2 UFA", "cont_19": "1500000"},
+{"name": "Goodrow, Barclay", "yrs_rem": "2 UFA", "cont_19": "925000"},
+{"name": "Radil, Lukas", "yrs_rem": "1 UFA", "cont_19": "700000"},
+{"name": "Gambrell, Dylan", "yrs_rem": "2 RFA", "cont_19": "700000"},
+{"name": "Kane, Evander", "yrs_rem": "6 UFA", "cont_19": "7000000"},
+{"name": "Hertl, Tomas", "yrs_rem": "3 UFA", "cont_19": "5625000"},
+{"name": "Thornton, Joe", "yrs_rem": "1 UFA", "cont_19": "2000000"},
+{"name": "Labanc, Kevin", "yrs_rem": "1 RFA", "cont_19": "1000000"},
+{"name": "Bergmann, Lean", "yrs_rem": "3 RFA", "cont_19": "836667"},
+{"name": "Marleau, Patrick", "yrs_rem": "1 UFA", "cont_19": "700000"},
+{"name": "Karlsson, Erik", "yrs_rem": "Karlsson, Erik", "cont_19": "11500000"},
+{"name": "Vlasic, Marc-\u00c9douard", "yrs_rem": "Vlasic, Marc-\u00c9douard", "cont_19": "7000000"},
+{"name": "Heed, Tim", "yrs_rem": "Heed, Tim", "cont_19": "960000"},
+{"name": "Burns, Brent", "yrs_rem": "Burns, Brent", "cont_19": "8000000"},
+{"name": "Dillon, Brenden", "yrs_rem": "Dillon, Brenden", "cont_19": "3270000"},
+{"name": "Ferraro, Mario", "yrs_rem": "Ferraro, Mario", "cont_19": "925000"},
+{"name": "Jones, Martin", "yrs_rem": "Jones, Martin", "cont_19": "5750000"},
+{"name": "Dell, Aaron", "yrs_rem": "Dell, Aaron", "cont_19": "1900000"}
 ]
