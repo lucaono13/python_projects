@@ -15,5 +15,7 @@ class StackItem(Item):
     name = Field()
     age = Field()
     yrs_rem = Field()
+    fa_type = Field()
     cont_19 = Field()
+    position = Field()
     pass
