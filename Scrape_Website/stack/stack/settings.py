@@ -91,7 +91,5 @@ ROBOTSTXT_OBEY = True
 
 ITEM_PIPELINES = {'stack.pipelines.MongoDBPipeline':1}
 
-MONGODB_SERVER = "localhost"
-MONGODB_PORT = 27017
-MONGODB_DF = "capfriendly"
-MONGODB_COLLECTION = "players"
+MONGO_URI = 'mongodb://localhost:27017'
+MONGO_DB = 'sharks-contracts-2019'
