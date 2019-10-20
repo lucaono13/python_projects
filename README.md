@@ -10,3 +10,4 @@ Project Ideas come from here: https://github.com/tuvtran/project-based-learning#
 ## Scrape_Website
  * Created web scraper using Scrapy to get data from CapFiendly on SJ Sharks contracts for the 2019 season
  * Also created a pipeline that would take scraped data and import into a MongoDB
+ * Up next: write a scraper to get contract data from all teams instead of just one

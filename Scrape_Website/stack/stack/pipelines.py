@@ -29,7 +29,7 @@ class MongoDBPipeline(object):
         return item
     """
 
-    collection_name = "sharks_contracts"
+    collection_name = "nhl_contracts"
 
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri

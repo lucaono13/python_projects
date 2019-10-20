@@ -105,3 +105,9 @@ venv.bak/
 
 # Access Tokens and API keys
 auth.json
+
+# Stack Crawler
+stack_crawler.py
+
+# Future project
+Telegram_Bot/

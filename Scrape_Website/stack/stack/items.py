@@ -18,4 +18,5 @@ class StackItem(Item):
     fa_type = Field()
     cont_19 = Field()
     position = Field()
+    team = Field()
     pass
